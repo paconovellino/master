@@ -1,0 +1,31 @@
+header{ /* selector por etiqueta */
+    width: 100%;
+    background-color: #B27A6E;
+    padding: 15px 10px;
+}
+
+nav{
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+}
+
+body{
+    background-color: bisque;
+    margin: 0px;
+}
+.links{ /* selector por clase */
+    font-size: 17px;
+    color: bisque;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#logo{
+/* selector por id */
+font-size: 30px;
+color: bisque;
+text-decoration: none;
+font-weight: bold;
+}
