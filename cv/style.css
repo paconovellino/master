@@ -1,0 +1,40 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.container {
+  align-content:center;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.intro {
+  text-align: left;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.experiencia {
+  text-align: left;
+}
+
+.estudios {
+  text-align: left;
+}
+
+.metas {
+  text-align: left;
+}
+
+h4{
+    font-family: "Roboto" Helvetica, sans-serif;
+}
+.img{
+    width: 25%;
+    border-radius: 100%;
+}
+.footer{
+    text-align: center;
+}
