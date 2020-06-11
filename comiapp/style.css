@@ -117,8 +117,7 @@ header nav a:first-child{
 }
 
 #contacto h1{
-   
-    font-size: 50px;
+   font-size: 50px;
    border-bottom: black solid 4px;
    color: #F54291;
 }
@@ -130,12 +129,19 @@ header nav a:first-child{
 }
 
 #contacto form input, #contacto form textarea{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background-color: transparent;
     border: none;
     border-bottom: black 4px solid;
     font-size: 15px;
-    text-align: left;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    resize: none;
+    width: 300px;
+} 
+
+#contacto label{
+    color: white;
 }
 
 #contacto button{
@@ -143,14 +149,9 @@ header nav a:first-child{
     height: 50px;
     background-color: #0A97B0;
     color: white;
-    box-sizing: border-box;
     border-radius: 10px;
-    font-style: normal;
-    font-weight: bold;
     font-size: 20px;
     border: 0px;
-    box-sizing: border-box;
-    outline: none;
 }
 
 #footer{
