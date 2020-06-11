@@ -41,7 +41,8 @@ header nav a:first-child{
     background-image: url(./img/chef.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 500px;
+    background-size: contain;
+    padding-top:100px ;
 }
 
 #inicio h1{
