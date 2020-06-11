@@ -1,0 +1,163 @@
+html,body{
+    width: 88%;
+    height: 100%;
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    width: 100px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin: 24px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+header nav a:first-child{
+    color: #0A97B0;
+}
+
+#inicio{
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/chef.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+}
+
+#inicio h1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+#inicio h2{
+    color:#F54291;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#inicio button{
+    width: 150px;
+    height: 50px;
+    background-color: #0A97B0;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+#descripcion{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+#beneficios{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#beneficios h1{
+    color: #4CD3C2;
+    font-size: 96px;
+    margin:0;
+    padding: 20px;
+}
+
+#beneficios h2{
+    color: black;
+    margin:0;
+    font-size: 45px;
+}
+
+#beneficios h3{
+    color: black;
+    margin:0;
+    font-size: 15px;
+    font-weight: normal;
+    
+}
+
+#contacto{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contacto h1{
+   font-size: 50px;
+   border-bottom: black solid 4px;
+   color: #F54291;
+}
+
+#contacto form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto form input, #contacto form textarea{
+   font-size: 25px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: black 4px solid;
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#contacto button{
+    width: 150px;
+    height: 50px;
+    background-color: #0A97B0;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#footer{
+    text-align: center;
+}
+#social{
+    padding: 15px;
+}
+#icon{
+    padding: 0px 15px;
+}
