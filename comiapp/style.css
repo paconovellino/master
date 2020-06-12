@@ -118,7 +118,7 @@ header nav a:first-child{
 
 #contacto h1{
    font-size: 50px;
-   border-bottom: black solid 4px;
+   border-bottom: black solid 6px;
    color: #F54291;
 }
 
@@ -126,6 +126,7 @@ header nav a:first-child{
     
     display: flex;
     flex-direction: column;
+    
 }
 
 #contacto form input, #contacto form textarea{
@@ -137,7 +138,8 @@ header nav a:first-child{
     padding-bottom: 12px;
     padding-top: 12px;
     resize: none;
-    width: 300px;
+    width: 400px;
+    outline: none;
 } 
 
 #contacto label{
@@ -152,6 +154,7 @@ header nav a:first-child{
     border-radius: 10px;
     font-size: 20px;
     border: 0px;
+    align-self: flex-end;
 }
 
 #footer{
