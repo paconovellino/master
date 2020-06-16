@@ -1,0 +1,53 @@
+html,body{
+    width: 97%;
+    height: 100%;
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo img{
+    width: 24px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin: 24px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    float: right;
+}
+
+#icon{
+    width: 24px;
+}
+
+
+.input{
+    height: 25px;
+    width: 800px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #E9E9E9;
+    margin: -190px;
+    border: 0px;
+    font-size: 17px;
+    
+}
+
+#nav-buttons a {
+    color: #bababa;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 26px;
+}
