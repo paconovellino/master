@@ -1,0 +1,39 @@
+.navbar{
+    margin-bottom: 40px;
+}
+.col{
+    text-align: center;
+}
+
+.bg-nav{
+    background-color: #FF0000;
+}
+
+.btn{
+    background-color: #FFDE00;
+}
+
+.card{
+    width: 300px;
+    border-color: gray ;
+    border-width: 6px;
+}
+
+.card-img-top{
+  background-color: honeydew;
+  border-radius: 0% 0% 50% 50%;
+  margin-bottom: 20px;
+}
+h3{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    color: #FFDE00;
+    -webkit-text-stroke: 1px blue;
+}
+h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    
+}
+
+
