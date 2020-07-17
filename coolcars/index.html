@@ -42,53 +42,53 @@
                 <form name="user-info" class="px-4 py-3">
                     <div class="form-group">
 
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Selecciona la marca
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button">Chevrolet</button>
-                                <button class="dropdown-item" type="button">Ford</button>
-                                <button class="dropdown-item" type="button">Nissan</button>
-                            </div>
+                        <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01"></label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Selecciona la marca</option>
+                                <option value="1">Chevrolet</option>
+                                <option value="2">Ford</option>
+                                <option value="3">Nissan</option>
+                        </select>
                         </div>
 
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Selecciona el año
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button">2019</button>
-                                <button class="dropdown-item" type="button">2020</button>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect02"></label>
                             </div>
+                            <select class="custom-select" id="inputGroupSelect02">
+                                <option selected>Seleccionar año</option>
+                                <option value="1">2020</option>
+                                <option value="2">2019</option>
+                            </select>
                         </div>
 
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Selecciona la caja de velocidades
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button">Mecánica</button>
-                                <button class="dropdown-item" type="button">Automática</button>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect03"></label>
                             </div>
+                            <select class="custom-select" id="inputGroupSelect03">
+                                <option selected>Caja de velocidades</option>
+                                <option value="1">Automática</option>
+                                <option value="2">Mecánica</option>
+                            </select>
                         </div>
 
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Cuál es tu presupuesto?
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <button class="dropdown-item" type="button">Menos de $15,000</button>
-                                <button class="dropdown-item" type="button">De $ a $ </button>
-                                <button class="dropdown-item" type="button">De $ a $ </button>
-                                <button class="dropdown-item" type="button">De $ a $ </button>
-                                <button class="dropdown-item" type="button">De $ a $ </button>
-                                <button class="dropdown-item" type="button">Más de $150,000</button>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect04"></label>
                             </div>
+                            <select class="custom-select" id="inputGroupSelect04">
+                                <option selected>Presupuesto</option>
+                                <option value="1">Menos de $15,000</option>
+                                <option value="2">De $ a $</option>
+                                <option value="3">De $ a $</option>
+                                <option value="4">De $ a $</option>
+                                <option value="5">De $ a $</option>
+                                <option value="6">Más de $150,000</option>
+                            </select>
                         </div>
                         
                     </div>
@@ -99,64 +99,6 @@
         </div>
     </div>
     
-     <!-- <div class="jumbotron">
-            <div class="jumbotron-content">
-                <p class="jumbotron-lg-only">Encuentra el auto de tus sueños</p>
-                <form name="user-info">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Selecciona la marca de auto
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">Chevrolet</button>
-                            <button class="dropdown-item" type="button">Ford</button>
-                            <button class="dropdown-item" type="button">Nissan</button>
-                        </div>
-                    </div>
-
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Selecciona en año del auto
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">2019</button>
-                            <button class="dropdown-item" type="button">2020</button>
-                        </div>
-                    </div>
-
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Selecciona la caja de velocidades
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">Automatica</button>
-                            <button class="dropdown-item" type="button">Manual</button>
-                        </div>
-                    </div>
-
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Selecciona tu presupuesto
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">menos de $15,000</button>
-                            <button class="dropdown-item" type="button">De $ a $  </button>
-                            <button class="dropdown-item" type="button">De $ a $  </button>
-                            <button class="dropdown-item" type="button">De $ a $  </button>
-                            <button class="dropdown-item" type="button">De $ a $  </button>
-                            <button class="dropdown-item" type="button">De $ a $  </button>
-                            <button class="dropdown-item" type="button">$150,000 o más</button>
-                        </div>
-                    </div>
-
-                    <a href="#" class="btn btn-primary btn-large">Buscar</a>
-                </form>
-            </div>
-    </div> -->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
