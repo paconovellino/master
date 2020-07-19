@@ -37,11 +37,20 @@
                 cotizador.push(autos[i])
             }
         }
+
+        // Aquí se comparan las marcas para meter la imagen que coincide
+        var imgMake= ""
+            if (selectedMake=="Nissan"){
+                imgMake = "./assetts/nissan.png";
+            }
+            if (selectedMake=="Chevrolet"){
+                imgMake = "./assetts/chevrolet.png";
+            }
+            if (selectedMake=="Ford"){
+                imgMake = "./assetts/ford.png";
+            }
     
-        
         for(var i=0; i<cotizador.length;i++){
-            console.log(cotizador[i]);
-    
             // Se meten los autos en el html
             var div = document.createElement('div');
             div.id = 'carsOutput';
@@ -49,16 +58,18 @@
             var cBody = document.createElement('div');
             cBody.className='card-body';
             var fMakeimg = document.createElement('img');
-            fMakeimg.className="img-card"
+            fMakeimg.className="img-card";
+            fMakeimg.setAttribute('src',imgMake);
             var fMake = document.createElement('p');
             fMake.innerHTML= cotizador[i].model;
             fMake.className="card-title";
             var fModel = document.createElement('p')
-            fModel.innerHTML = cotizador[i].body_styles;
+            fModel.innerHTML = "Tipo de auto: " + cotizador[i].body_styles;
             var fColors = document.createElement('p')
-            fColors.innerHTML = cotizador[i].colors;
+            fColors.innerHTML = "Colores disponibles: " + cotizador[i].colors;
             var fPrice = document.createElement('p')
-            fPrice.innerHTML = cotizador[i].price;
+            fPrice.innerHTML = "$ " + cotizador[i].price;
+            fPrice.className="card-title";
             carsContainer.appendChild(div);
             div.appendChild(cBody);
             cBody.appendChild(fMakeimg);
