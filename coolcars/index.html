@@ -38,19 +38,18 @@
 
     <div class="jumbotron">
         <div class="jumbotron-content">
-            
-                <form name="user-info" class="px-4 py-3">
+                
                     <div class="form-group">
 
                         <div class="input-group mb-3">
                         <div class="input-group-prepend">
                         <label class="input-group-text" for="inputGroupSelect01"></label>
                         </div>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select" id="brand-form">
                                 <option selected>Selecciona la marca</option>
-                                <option value="1">Chevrolet</option>
-                                <option value="2">Ford</option>
-                                <option value="3">Nissan</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Nissan">Nissan</option>
                         </select>
                         </div>
 
@@ -58,10 +57,10 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text" for="inputGroupSelect02"></label>
                             </div>
-                            <select class="custom-select" id="inputGroupSelect02">
+                            <select class="custom-select" id="year-form">
                                 <option selected>Seleccionar año</option>
-                                <option value="1">2020</option>
-                                <option value="2">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
                             </select>
                         </div>
 
@@ -69,10 +68,10 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text" for="inputGroupSelect03"></label>
                             </div>
-                            <select class="custom-select" id="inputGroupSelect03">
+                            <select class="custom-select" id="trans-form">
                                 <option selected>Caja de velocidades</option>
-                                <option value="1">Automática</option>
-                                <option value="2">Mecánica</option>
+                                <option value="Automática">Automática</option>
+                                <option value="Mecánica">Mecánica</option>
                             </select>
                         </div>
 
@@ -80,7 +79,7 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text" for="inputGroupSelect04"></label>
                             </div>
-                            <select class="custom-select" id="inputGroupSelect04">
+                            <select class="custom-select" id="price-form">
                                 <option selected>Presupuesto</option>
                                 <option value="1">Menos de $15,000</option>
                                 <option value="2">De $ a $</option>
@@ -92,8 +91,8 @@
                         </div>
                         
                     </div>
-                    <button type="submit" class="btn btn-primary">Buscar</button>
-                </form>
+                    <button type="submit" class="btn btn-primary" id="button">Buscar</button>
+                
             
             
         </div>
