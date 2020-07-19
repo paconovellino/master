@@ -43,9 +43,9 @@
 
                         <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                        <label class="input-group-text" for="inputGroupSelect01"></label>
+                        <label class="input-group-text" for="form-make"></label>
                         </div>
-                        <select class="custom-select" id="brand-form">
+                        <select class="custom-select" id="form-make">
                                 <option selected>Selecciona la marca</option>
                                 <option value="Chevrolet">Chevrolet</option>
                                 <option value="Ford">Ford</option>
@@ -55,9 +55,9 @@
 
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect02"></label>
+                                <label class="input-group-text" for="form-year"></label>
                             </div>
-                            <select class="custom-select" id="year-form">
+                            <select class="custom-select" id="form-year">
                                 <option selected>Seleccionar año</option>
                                 <option value="2020">2020</option>
                                 <option value="2019">2019</option>
@@ -66,73 +66,36 @@
 
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect03"></label>
+                                <label class="input-group-text" for="form-speed"></label>
                             </div>
-                            <select class="custom-select" id="trans-form">
+                            <select class="custom-select" id="form-speed">
                                 <option selected>Caja de velocidades</option>
-                                <option value="Automática">Automática</option>
-                                <option value="Mecánica">Mecánica</option>
+                                <option>Automático</option>
+                                <option>Manual</option>
                             </select>
                         </div>
 
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect04"></label>
+                                <label class="input-group-text" for="form-budget"></label>
                             </div>
-                            <select class="custom-select" id="price-form">
-                                <option selected>Presupuesto</option>
-                                <option value="1">Menos de $15,000</option>
-                                <option value="2">De $ a $</option>
-                                <option value="3">De $ a $</option>
-                                <option value="4">De $ a $</option>
-                                <option value="5">De $ a $</option>
-                                <option value="6">Más de $150,000</option>
-                            </select>
+                            <input type=text class="form-control" id="form-budget" rows="3"></input>
                         </div>
                         
                     </div>
-                    <button type="submit" class="btn btn-primary" id="button">Buscar</button>
+                    <button type="submit" class="btn btn-primary" id="button-search">Buscar</button>
                 
             
             
         </div>
     </div>
     
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                            content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                            content.</p>
-                    </div>
-                </div>
-            </div>
-            
+    <div class="container father-container">
+        <div class="row" id="card-container">
+          <div id="carsOutput"></div>
         </div>
     </div>
+      
 
 
 <footer class="footer mt-auto py-3 ">
